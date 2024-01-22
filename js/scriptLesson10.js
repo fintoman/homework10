@@ -38,3 +38,5 @@ parrent.addEventListener("click", () => {
   child.style.display = child.style.display === "none" ? "block" : "none";
   child2.style.display = child2.style.display === "none" ? "block" : "none";
 });
+
+1;
