@@ -2,11 +2,11 @@
 // Напишіть такий JavaScript, щоб після натискання на кнопку button, елемент
 // <div id="text"> зникав.
 
-const btn = document.querySelector("#btn1");
-const textElement = document.querySelector("#text");
-btn.addEventListener("click", () => {
-  textElement.style.visibility = "hidden";
-});
+// const btn = document.querySelector("#btn1");
+// const textElement = document.querySelector("#text");
+// btn.addEventListener("click", () => {
+//   textElement.style.visibility = "hidden";
+// });
 
 //Другий вариант
 // btn.addEventListener("click", () => {
@@ -16,10 +16,10 @@ btn.addEventListener("click", () => {
 // -----2----
 // Напишіть такий код, щоб після натискання на кнопку, вона зникала.
 
-const btn = document.querySelector("#btn1");
-btn.addEventListener("click", () => {
-  btn.style.visibility = "hidden";
-});
+// const btn = document.querySelector("#btn1");
+// btn.addEventListener("click", () => {
+//   btn.style.visibility = "hidden";
+// });
 
 // Другий вариант
 // btn.addEventListener("click", () => {
@@ -38,5 +38,3 @@ parrent.addEventListener("click", () => {
   child.style.display = child.style.display === "none" ? "block" : "none";
   child2.style.display = child2.style.display === "none" ? "block" : "none";
 });
-
-1;
